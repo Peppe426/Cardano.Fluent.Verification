@@ -37,3 +37,48 @@ Charles Hoskinson discusses the complexities of free speech and regulation on so
 https://www.youtube.com/watch?v=XThVlSKo0WA
 
 Charles Hoskinson advocates for enhancing Twitter's security through access control systems with Public-Private Key pairs, introducing Verified Tweets with Decentralized Identifiers (DIDs) for real-life identity verification. He proposes using digital signatures, hashing, Verifiable Identity Credentials (VIDs), DIDs, and NFTs for secure communication. Hoskinson suggests veracity bonds as a financial stake to ensure trustworthiness, combating deep fakes and misinformation on social media. He urges platforms like Twitter and Mastodon to adopt these measures for a more reliable user experience.
+
+## Roadmap
+1. **Identify Actors:**
+   - Define the primary actors involved in the system.
+   - Specify their roles and responsibilities in the context of managing DIDs and NFTs.
+
+2. **Define Features:**
+   - Break down the key features mentioned in the project into manageable components.
+   - Features may include DIDs Management, NFTs Standardization, VICs Implementation, Misinformation Prevention, Secure Information Exchange, Adoption of Veracity Bonds, and User-Focused Trust and Reliability.
+
+3. **Create Scenarios:**
+   - For each feature, identify various scenarios that represent different use cases.
+   - For example, scenarios for DIDs Management could include creating a DID, resolving a DID, and managing DIDs efficiently.
+   - Define scenarios for each key feature mentioned in the project.
+
+4. **Write acceptance tests using SpecFlow, Gherkin Syntax:**
+   - Utilize SpecFlow for writing Gherkin syntax.
+   - Define executable specifications for each scenario using SpecFlow's Given-When-Then statements.
+   - Set up the SpecFlow project structure and feature files.
+
+5. **Implement Step Definitions with SpecFlow:**
+   - Implement step definitions using SpecFlow to bridge Gherkin scenarios with actual code.
+   - Leverage SpecFlow's bindings to map Gherkin steps to executable code.
+   - Set up hooks or extensions to integrate with SpecFlow's living documentation feature.
+
+6. **DSL Exploration:**
+   - Explore and identify the requirements and capabilities of the DSL for managing DIDs and NFTs.
+   - Consider researching existing DSL solutions or libraries that align with the project goals.
+   - Outline the DSL's expected behavior based on the key features.
+
+7. **Documentation with Living Documentation:**
+   - Leverage SpecFlow's living documentation feature to automatically generate documentation from your Gherkin scenarios.
+   - Ensure that your SpecFlow project is configured to produce living documentation during the test execution.
+   - Emphasize the use of living documentation as a dynamic and always-up-to-date reference for the project's behavior.
+
+8. **Iterate and Refine:**
+   - Collect feedback, even in the absence of existing code.
+   - Iterate on the DSL design based on feedback and potential challenges identified during exploration.
+   - Refine the Gherkin scenarios, SpecFlow step definitions, and the living documentation as needed.
+
+9. **Community Engagement:**
+   - Emphasize the collaborative nature of the project and invite contributions.
+   - Foster discussions around the DSL design and gather insights from the community.
+   - Encourage collaboration on defining additional scenarios or refining existing ones.
+   - Share and discuss the living documentation with the community for transparent communication.
