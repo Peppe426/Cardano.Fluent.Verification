@@ -1,4 +1,5 @@
 ## Feature: __Decentralized Verification of Objective Truth__
+These scenarios address the bounds and criteria for establishing objective truths; and they incorporate the endorse process where financial stakes are associated with the truth value of information.
 
 ### Scenario: A journalist endorsing a news story
 **Given** An objective truth is required to publish a news article

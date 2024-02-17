@@ -1,4 +1,5 @@
 ## Feature: Social Media Identity Registrar (SMIR)
+These scenarios cover various aspects of the SMIR feature, from user registration and post authentication to access control management and handling of security incidents. The actors include the Social Media Identity Registrar, the Broadcast Authenticator, the Signature Validator, the Key Protection Service, and the Authority Role Identifier.
 
 ### Scenario: Registering a new user on the platform
   **Given** a new user wants to join the social media platform
